@@ -84,6 +84,12 @@
                             <constraint firstItem="PhE-Ed-TBe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="jPc-44-Xz6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmationPasswordTextField" destination="JPY-dD-qYP" id="HND-cN-ATz"/>
+                        <outlet property="emailTextField" destination="gob-6u-cpZ" id="O45-Yf-rtk"/>
+                        <outlet property="passwordTextField" destination="YkP-1R-IsQ" id="Rk5-hW-ogt"/>
+                        <outlet property="signUpButton" destination="uxZ-A2-LH7" id="QLz-37-1VF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
