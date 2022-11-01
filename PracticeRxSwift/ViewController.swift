@@ -7,7 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    @IBOutlet private weak var emailTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
+    @IBOutlet private weak var confirmationPasswordTextField: UITextField!
+    @IBOutlet private weak var signUpButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
